@@ -1,6 +1,7 @@
 import Home from "./page/Home"
 import About from "./page/About"
 import NavBar from "./page/navbar"
+import Contact from "./page/Contact"
 import { useState, useEffect } from "react"
 import "./style.css"
 
@@ -15,6 +16,7 @@ function App() {
       <NavBar setCurrentPage={setCurrentPage} />
       {currentPage === "home" && <Home />}
       {currentPage === "about" && <About />}
+      {currentPage === "contact" && <Contact />}
       {/* {currentPage === "home" ? <Home /> : null}
       {currentPage === "about" ? <About /> : null} */}
     </div>

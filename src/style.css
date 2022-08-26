@@ -1,188 +1,61 @@
-/* Navbar */
-html{
-    position: relative;
+/* html {
+	position: relative;
+} */
+*{
+    margin: 0;
 }
 body {
 	margin-bottom: 80px;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 }
 
-a{
-    cursor: pointer;
+nav a:visited{
+    color: white;
 }
 
 .jumbotron{
-    width: 100%;
-    height: auto;
     background-color: #fdd460;
-    display: grid;
-    grid-template-columns: 1fr 1.3fr ;
-    margin-top:50px;
+    height: auto;
 }
 
-.grid{
-   width: 100%;
-   padding: 30px 40px;
-   text-align: center;
-}
-
-
-.kotakkanan{
-    max-width: 627px;
-    padding: 30px 40px;
-}
-.grid ul{
-    list-style-type: none;
-    padding: 30px 40px;
-    text-align: left;
-    color: #111;
-}
-
-.grid .hel{
+.jumbotron h3{
     padding: 20px;
     background-color: white;
     font: 65px sans-serif;
     font-weight: 700;
-    
     width: 100%;
 }
 
-.grid h1{
-    margin: 14px 29px 0 0;
-    font:48px sans-serif;
+.jumbotron a,
+.about a,
+.contact a{
+    color: black;
 }
 
-.grid h2{
-    margin: 0 auto;
-    font: 60px sans-serif;
-}
-
-.grid h6{
-    margin: 20px auto 0 ;
-    font: 20px sans-serif;
-}
-
-
-
-.grid .im{
-    margin: 7px 57px 29px 0;
-    display: flex;
-    text-align: left;
-    /* word-spacing: ; */
-}
-
-.kotakkanan .grid .im p{
-    letter-spacing: 10xp;
-    margin: 7px auto 0 0;
-    text-align: left;
-}
-
-.grid .im a {
-    text-decoration: none;
-    color: inherit;
+.jumbotron a:hover{
     border-bottom: 1px solid black;
-    letter-spacing: 2px;
 }
 
-.grid .im a:hover{
-    border: 0;
-}
-
-.grid .read{
-    margin-top: 29px;
-    margin: 29px auto 0 0;
-    padding: 10px 52px 10px 51px;
-    background-color: #fff;
-    text-decoration: none;
-    color: inherit;
-    font: 16px "Open Sans",sans-serif;
-    font-weight: bold;
-    border: 2px solid black;
-}
-
-.grid .read:hover{
-    background-color:black ;
+.contact a:hover,
+.jumbotron button a:hover{
     color: white;
 }
 
-/* About */
-.prof{
-    display: grid;
-    grid-template-rows: 0.8fr 1fr;
-     height: 100%; 
+section {
+    min-height: 600px;
+    bottom: 0;
 }
 
-.about{
-    width: 100%;
-    /* height: 100%; */
-    color: inherit;
-    font: 16px "Open Sans",sans-serif;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.about h2{
-    margin: 60px auto 0;
-    font: 60px Oswald,sans-serif;
-}
-
-.about p{
-    margin: 11px auto 0;
-    font: 20px sans-serif;
-    color: inherit;
-}
-
-.about2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.a1{
-    padding: 30px;
-
-}
-
-.a2{
-    padding: 30px 0;
-
-}
-
-.a1 h3{
-    font: 30px Oswald,sans-serif;
-    font-weight: bold;
-}
-
-.a1 p{
-    margin: 20px 0 0;
-    font: 16px "Open Sans",sans-serif;
-    line-height: 2;
-}
-
-.a1 .lin{
-    border-bottom: 1px solid black;
-    text-decoration: none;
-    color: #111;
-}
-
-.a1 .lin:hover{
-    border: 0;
-}
-
-.a2 .gam{ 
-    text-align: center;
-    margin: 0 auto;
-}
-
-.a2 img{
-    width: 239px;
+section img{
     border-radius: 50%;
 }
 
-.sosmed{
-    margin: 30px auto 0 0;
+.contact {
+	/* min-height: auto; */
+    max-height: auto;
 }
 
-.sosmed a{
-    text-decoration: none;
-    color: #111;
+.btn-primary a {
+	text-decoration: none;
+	color: white;
 }
